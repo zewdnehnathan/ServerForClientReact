@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 
 namespace API2.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductsController : ControllerBase
+    public class ProductsController : BaseApiController
     {
         private readonly StoreContext _storeContext;
         public ProductsController(StoreContext context)
