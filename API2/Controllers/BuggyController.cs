@@ -32,7 +32,7 @@ namespace API2.Controllers
         [HttpGet("server-error")]
         public ActionResult GetServerError()
         {
-             throw new Exception("This s a Server Error");
+             throw new Exception("This is a Server Error");
         }
     }
 }
